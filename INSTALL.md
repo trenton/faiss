@@ -209,7 +209,7 @@ $ ./build/demos/demo_ivfpq_indexing
 
 ``` shell
 $ make -C build demo_ivfpq_indexing_gpu
-$ ./build/demos/demo_ivfpq_indexing_gpu
+$ ./build/faiss/gpu/test/demo_ivfpq_indexing_gpu
 ```
 
 This produce the GPU code equivalent to the CPU `demo_ivfpq_indexing`. It also
